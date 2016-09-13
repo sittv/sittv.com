@@ -1,4 +1,68 @@
-body {
-  background: #383838;
+a {
+  font-weight: bold;
   color: #FFFFFF;
+}
+a:hover {
+  font-weight: normal;
+}
+
+.submenu a {
+  color: #000000;
+}
+
+p, h1, h2, h3, h4 {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-image: url('/bg.png');
+  color: #FFFFFF;
+}
+
+.staff img {
+  width: 100px;
+  border: 3px #FFFFFF solid;
+  float: left;
+  margin-right: 10px;
+  margin-top: 11px;
+}
+
+.staff ul li {
+  min-height: 150px;
+}
+
+.staff ul {
+  list-style: none;
+}
+
+header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  height: 100px;
+}
+
+header .nav {
+  float:right;
+}
+
+header .logo {
+  float: left;
+  margin-left: 20px;
+}
+
+header img {
+  margin-top: -40px;
+}
+
+.vids {
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+footer a {
+  padding-right: 15px;
+}
+
+footer {
+  padding-bottom: 10px;
 }
